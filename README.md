@@ -1,3 +1,7 @@
+![.NET 8](https://img.shields.io/badge/.NET-8.0-blue?style=for-the-badge&logo=dotnet)
+![ODC](https://img.shields.io/badge/OutSystems-Developer%20Cloud-red?style=for-the-badge&logo=outsystems)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
 # Microsoft Teams Webhook Connector for OutSystems Developer Cloud
 
 A .NET 8 external logic library for **OutSystems Developer Cloud (ODC)** that sends rich, structured messages to Microsoft Teams via Incoming Webhooks. It exposes five purpose-built actions covering everything from quick text pings to high-impact announcement banners — all powered by Adaptive Cards under the hood.
