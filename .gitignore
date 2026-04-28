@@ -1,0 +1,135 @@
+# ---------- Build output ----------
+bin/
+obj/
+out/
+publish/
+publish_out/
+artifacts/
+[Dd]ebug/
+[Rr]elease/
+[Dd]ebugPublic/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+build/
+bld/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# ---------- Distribution artifacts ----------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.nupkg
+*.snupkg
+
+# ---------- .NET intermediate / generated ----------
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.exp
+*.ilk
+*.meta
+*.cache
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.iml
+project.lock.json
+project.fragment.lock.json
+*.tlog
+*.binlog
+*.svclog
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+coverage*.json
+coverage*.xml
+coverage*.info
+*.coverage
+*.coveragexml
+.coverlet/
+
+# Roslyn / generated source
+*.g.cs
+*.g.i.cs
+generated/
+Generated/
+
+# ---------- IDE / Editor ----------
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+.ionide/
+
+# Rider
+*.sln.iml
+.idea.*/
+
+# Visual Studio Code workspaces
+*.code-workspace
+
+# JetBrains
+*.DotSettings.user
+
+# ---------- NuGet ----------
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+# ---------- OutSystems / ODC packaging scratch ----------
+publish_out/
+*.osp
+*.oap
+*.opx
+
+# ---------- OS metadata ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---------- Logs / temp ----------
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# ---------- Secrets / local config ----------
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.Local.json
+appsettings.Development.local.json
+*.pfx
+*.snk
+*.key
+
+# ---------- Misc ----------
+node_modules/
