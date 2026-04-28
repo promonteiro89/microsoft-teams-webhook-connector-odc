@@ -1,6 +1,6 @@
-![.NET 8](https://img.shields.io/badge/.NET-8.0-blue?style=for-the-badge&logo=dotnet)
-![ODC](https://img.shields.io/badge/OutSystems-Developer%20Cloud-red?style=for-the-badge&logo=outsystems)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+[![Platform](https://img.shields.io/badge/Platform-OutSystems_ODC-red.svg)](https://www.outsystems.com/odc/)
+[![.NET](https://img.shields.io/badge/.NET-8.0-blue.svg)](https://dotnet.microsoft.com/download/dotnet/8.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Microsoft Teams Webhook Connector for OutSystems Developer Cloud
 
