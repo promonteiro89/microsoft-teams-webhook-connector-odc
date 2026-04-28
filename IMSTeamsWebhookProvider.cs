@@ -56,6 +56,9 @@ namespace OutSystems.MicrosoftTeamsWebhookConnector
 
         [OSStructureField(Description = "Optional: Size of the image (Small, Medium, Large, Stretch).")]
         public string Size { get; set; }
+
+        [OSStructureField(Description = "Optional: Style of the image (Default, Person).")]
+        public string Style { get; set; }
     }
 
     [OSStructure(Description = "Parameters for sending a styled alert notification.")]

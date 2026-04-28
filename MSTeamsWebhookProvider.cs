@@ -119,7 +119,8 @@ namespace OutSystems.MicrosoftTeamsWebhookConnector
                                 new Image
                                 {
                                     Url = item.Image.Url,
-                                    Size = string.IsNullOrWhiteSpace(item.Image.Size) ? "Medium" : item.Image.Size
+                                    Size = string.IsNullOrWhiteSpace(item.Image.Size) ? "Medium" : item.Image.Size,
+                                    Style = item.Image.Style
                                 }
                             }
                         });
@@ -199,7 +200,8 @@ namespace OutSystems.MicrosoftTeamsWebhookConnector
                 adaptiveCard.Body.Add(new Image
                 {
                     Url = card.Image.Url,
-                    Size = string.IsNullOrWhiteSpace(card.Image.Size) ? "Large" : card.Image.Size
+                    Size = string.IsNullOrWhiteSpace(card.Image.Size) ? "Large" : card.Image.Size,
+                    Style = card.Image.Style
                 });
             }
 
