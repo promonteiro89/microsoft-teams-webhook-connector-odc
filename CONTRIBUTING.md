@@ -11,7 +11,7 @@ Thanks for taking the time to contribute. This document covers what you need to 
 ## Development setup
 
 Requirements:
-- .NET 8 SDK
+- .NET 10 SDK
 - A Microsoft Teams channel with an Incoming Webhook URL you can post to (a personal sandbox tenant is ideal).
 
 Build and run a local check:
@@ -34,7 +34,7 @@ Upload the resulting zip to ODC Portal's External Logic page to validate end-to-
 
 ## Code conventions
 
-- **Target stays at .NET 8** to match what ODC accepts.
+- **Target stays at .NET 10** to match what ODC accepts.
 - **Public surface lives in `IMSTeamsWebhookProvider.cs`.** Every public type carries `[OSStructure]` / `[OSStructureField]` / `[OSAction]` / `[OSParameter]` attributes with a `Description`. ODC reads those descriptions verbatim — keep them clear and complete.
 - **Internal Adaptive Card DTOs stay `internal`** and live in the `OutSystems.MicrosoftTeamsWebhookConnector.Internal` namespace. They are serialized via `TeamsJsonContext` (source-generated). If you add a new internal type, register it in the `[JsonSerializable]` list on `TeamsJsonContext`.
 - **Don't introduce reflection-based JSON.** Add new types to the source-gen context instead.
