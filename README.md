@@ -1,10 +1,10 @@
 [![Platform](https://img.shields.io/badge/Platform-OutSystems_ODC-red.svg)](https://www.outsystems.com/odc/)
-[![.NET](https://img.shields.io/badge/.NET-8.0-blue.svg)](https://dotnet.microsoft.com/download/dotnet/8.0)
+[![.NET](https://img.shields.io/badge/.NET-10.0-blue.svg)](https://dotnet.microsoft.com/download/dotnet/10.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Microsoft Teams Webhook Connector for OutSystems Developer Cloud
 
-A .NET 8 external logic library for **OutSystems Developer Cloud (ODC)** that sends rich, structured messages to Microsoft Teams via Incoming Webhooks. It exposes five purpose-built actions covering everything from quick text pings to high-impact announcement banners — all powered by Adaptive Cards under the hood.
+A .NET 10 external logic library for **OutSystems Developer Cloud (ODC)** that sends rich, structured messages to Microsoft Teams via Incoming Webhooks. It exposes five purpose-built actions covering everything from quick text pings to high-impact announcement banners — all powered by Adaptive Cards under the hood.
 
 No raw JSON. No boilerplate. Just typed structures you can drop into your ODC logic.
 
@@ -52,7 +52,7 @@ Microsoft Teams accepts Adaptive Card payloads, but assembling them by hand in O
 ## Build
 
 Requirements:
-- .NET 8 SDK
+- .NET 10 SDK
 - The `OutSystems.ExternalLibraries.SDK` NuGet package (already referenced in the `.csproj`).
 
 ```bash
@@ -81,7 +81,7 @@ To get a webhook URL, in Microsoft Teams: channel → **⋯** → *Workflows* �
 .
 ├── IMSTeamsWebhookProvider.cs    # Public interface + OS structures
 ├── MSTeamsWebhookProvider.cs     # Implementation + internal Adaptive Card DTOs
-├── MSTeamsWebhookProvider.csproj # .NET 8 project file
+├── MSTeamsWebhookProvider.csproj # .NET 10 project file
 ├── Resources/                    # Action and connector icons (embedded)
 ├── README.md
 └── CONTRIBUTING.md
